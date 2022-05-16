@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.InfoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/jd"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/info_1"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toEndOf="@+id/text_1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_1" />
+
+    <EditText
+        android:id="@+id/info_2"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toEndOf="@+id/text_1"
+        app:layout_constraintTop_toBottomOf="@+id/info_1" />
+
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_2" />
+
+    <EditText
+        android:id="@+id/info_3"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toEndOf="@+id/text_1"
+        app:layout_constraintTop_toBottomOf="@+id/info_2" />
+
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_3" />
+
+    <EditText
+        android:id="@+id/info_4"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toEndOf="@+id/text_1"
+        app:layout_constraintTop_toBottomOf="@+id/info_3" />
+
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="126dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_4" />
+
+    <EditText
+        android:id="@+id/info_5"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toEndOf="@+id/text_1"
+        app:layout_constraintTop_toBottomOf="@+id/info_4" />
+
+    <Button
+        android:id="@+id/update_info"
+        android:layout_width="196dp"
+        android:layout_height="57dp"
+        android:text="修改"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
